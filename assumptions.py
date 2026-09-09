@@ -1,0 +1,25 @@
+NUM_POLICIES = 10_000
+
+ENTRY_AGE = 40
+TERM = 10
+
+SUM_INSURED = 500_000
+ANNUAL_PREMIUM = 2_000
+
+LAPSE_RATE = 0.05
+ANNUAL_EXPENSE = 100
+
+ACQUISITION_EXPENSE = 0.10
+
+INTEREST_RATE = 0.04
+
+RISK_ADJUSTMENT_RATE = 0.05
+
+SEX = "male"   # "male" or "female"
+
+MORTALITY_STRESS_FACTOR = 4.00  # try adjusting this later for Step 5
+REASSESSMENT_YEAR = 5
+
+EXPERIENCE_VOLATILITY = 0.15    # CV, i.e. 15% volatility
+EXPERIENCE_DISTRIBUTION = "gamma"   # "gamma" or "lognormal"
+RANDOM_SEED = 42       
